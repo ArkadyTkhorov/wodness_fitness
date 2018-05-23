@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- pressed -->
+<item android:state_pressed="true">
+    <shape android:shape="oval">
+        <solid android:background="@drawable/private_profile_uncheck" />
+
+        <stroke
+            android:width="1dp"
+            android:color="@color/colorprivateprofile"/>
+    </shape>
+</item>
+
+<!-- normal/default -->
+<item android:state_pressed="false">
+
+    <shape android:shape="oval">
+        <solid android:background="@drawable/private_profile_uncheck"></solid>
+
+        <stroke
+            android:width="1dp"
+            android:color="@color/colorprivateprofile"/>
+    </shape>
+</item>
+</selector>

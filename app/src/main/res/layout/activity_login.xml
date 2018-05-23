@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_back_pic">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/Body1"
+        android:paddingTop="@dimen/login_title_margin_top">
+        <com.and.wodness.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_app_logo_name"
+            android:textSize="@dimen/splash_logo_app_name_textsize"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="@dimen/login_textview_margin_bottom"
+            />
+        <com.and.wodness.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T R A I N  H A R D E R .  R E C O R D  &amp;  P R O G R E S S"
+            android:textSize="@dimen/login_progress_textsize"
+            android:textColor="@color/colorProgress"
+            android:layout_marginBottom="@dimen/splash_logo_textview_margin_bottom"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/login_edit_text_padding"
+        android:paddingRight="@dimen/login_edit_text_padding"
+        android:paddingTop="250dp">
+        <com.and.wodness.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_username_edittext"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/username_hint"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/imageView"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:background="@drawable/edt_bg_selector_login"
+            android:textColorHint="@android:color/white"
+            android:layout_marginBottom="20dp"
+            />
+
+        <com.and.wodness.CustomEditText
+            android:id="@+id/login_password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/password_hint"
+            android:password="true"
+            android:textColor="@android:color/white"
+            android:background="@drawable/edt_bg_selector_login"
+            android:textColorHint="@android:color/white"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            />
+        <com.and.wodness.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F O R G O T  P A S S W O R D?"
+            android:textColor="@color/colorProgress"
+            android:textSize="13sp"
+            android:id="@+id/login_forgotpassword_button"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="450dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+        <com.and.wodness.CustomButton
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/log_in"
+            android:text="L O G I N"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:alpha="0.85"
+            android:id="@+id/login_login_button"
+            android:layout_marginBottom="@dimen/first_login_textview_margin_bottom"/>
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.and.wodness.CustomButton
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/connect_with_facebook"
+            android:textSize="16sp"
+            android:text="@string/login_withfb_button"
+            android:textColor="@android:color/white"
+            android:alpha="0.85"
+            />
+        </FrameLayout>
+    </LinearLayout>
+    <com.and.wodness.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/first_login_lightgray_button"
+        android:text="J O I N  U S"
+        android:id="@+id/login_joinus_button"
+        android:textSize="16sp"
+        />
+</RelativeLayout>

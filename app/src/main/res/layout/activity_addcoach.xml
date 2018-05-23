@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="10dp">
+        <com.and.wodness.CustomButton
+            android:id="@+id/recover_back_button"
+            android:layout_width="10dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_img_button" />
+
+        <com.and.wodness.CustomTextView
+            android:id="@+id/customTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/addcoach_title_str"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/premium_subscription"
+            android:paddingTop="10dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:baselineAligned="false"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="1dp"
+        >
+    <com.and.wodness.CustomEditText
+        android:id="@+id/customTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/addbox_name_str"
+        android:paddingLeft="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000"
+        android:textSize="@dimen/custom_strenght"
+        android:background="#b8b8ba"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+
+            <com.and.wodness.CustomTextView
+                android:id="@+id/customTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/addcoach_addphone_str"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:background="#fff"
+
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="@dimen/profile_button_margin"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/addcoach_add_phone"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cross"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="#FF000000"/>
+        </LinearLayout>
+        <com.and.wodness.CustomEditText
+            android:id="@+id/customTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/addbox_address_str"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000"
+            android:textSize="@dimen/custom_strenght"
+            android:background="#b8b8ba"
+            android:layout_marginTop="30dp"
+            />
+        <com.and.wodness.CustomEditText
+            android:id="@+id/customTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/addbox_phone_str"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000"
+            android:textSize="@dimen/custom_strenght"
+            android:background="#b8b8ba"
+            android:layout_marginTop="10dp"
+            />
+        <com.and.wodness.CustomEditText
+            android:id="@+id/customTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/addbox_nameofowner_str"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000"
+            android:textSize="@dimen/custom_strenght"
+            android:background="#b8b8ba"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <com.and.wodness.CustomButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/create_an_account"
+        android:text="@string/addbox_submit_str"
+        android:id="@+id/recover_reset_password_button"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</RelativeLayout>

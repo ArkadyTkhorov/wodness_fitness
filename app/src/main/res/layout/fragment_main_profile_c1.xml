@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_marginTop="@dimen/main_profile_title_margin_top"
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/main_profile_title_logo_width_size"
+        android:layout_height="@dimen/main_profile_title_logo_height_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/splash_logo_pic" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView3"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3"
+        android:id="@+id/linlay1"
+        android:layout_marginRight="@dimen/main_profile_photo_layout_margin"
+        android:layout_marginEnd="@dimen/main_profile_photo_layout_margin"
+        android:paddingBottom="@dimen/main_profile_graph_layout_margintop">
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_photo_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            android:src="@drawable/photo"
+            android:layout_centerHorizontal="true" />
+        <com.and.wodness.CustomTextView
+            android:layout_marginTop="@dimen/main_profile_title_margin_top"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/profile_username_text"
+            android:textColor="@color/colorProgress"/>
+        <com.and.wodness.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_profile_photo_text_ready"
+            android:textSize="@dimen/main_profile_photo_textsize"
+            android:textColor="@android:color/black"/>
+        <com.and.wodness.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_profile_photo_text_records"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/main_profile_photo_textsize"
+            android:id="@+id/recordstr"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="69dp"
+        android:layout_height="71dp"
+        android:background="@drawable/main_profile_logo_c_active"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linlay2"
+        android:layout_alignBottom="@+id/linlay1"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="50dp"
+            android:layout_gravity="center">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latest Workout"
+                android:layout_marginBottom="10dp"/>
+            <com.and.wodness.CustomTextView_number
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="18 Sep 17"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <com.and.wodness.spark.SparkView
+            android:id="@+id/sparkview"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            app:spark_lineColor="@color/colorProgress"
+            app:spark_lineWidth="3dp"
+            app:spark_scrubEnabled="true"
+
+            app:spark_animateChanges="true"/>
+        <com.and.wodness.CustomTextView_number
+            android:id="@+id/textView"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="00'00"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_profile_workout_marginleft"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="28dp"
+            android:layout_gravity="center">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latest Performance"
+                android:layout_marginBottom="10dp"/>
+            <com.and.wodness.CustomTextView_number
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="18 Sep 17"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <com.and.wodness.spark.SparkView
+            android:id="@+id/sparkview1"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            app:spark_lineColor="@color/colorDarkRed"
+            app:spark_lineWidth="3dp"
+            app:spark_scrubEnabled="true"
+            app:spark_animateChanges="true"/>
+
+        <com.and.wodness.CustomTextView_number
+            android:id="@+id/customtextviewnumber"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="100kg"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/customtextviewnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/main_profile_logo">
+
+        <ImageView
+            android:id="@+id/frag_upgrade_pre_button"
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+
+            android:background="@drawable/upgrade_premium"
+            android:paddingBottom="100dp" />
+    </LinearLayout>
+</RelativeLayout>

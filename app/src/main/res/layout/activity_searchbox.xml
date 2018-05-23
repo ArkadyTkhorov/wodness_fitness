@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4">
+        <com.and.wodness.CustomButton
+            android:id="@+id/recover_back_button"
+            android:layout_width="10dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_img_button" />
+
+        <com.and.wodness.CustomTextView
+            android:id="@+id/customTextView"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/searchbox_title_str"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:baselineAligned="false"
+        android:paddingLeft="1dp"
+
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:baselineAligned="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginTop="1dp">
+            <com.and.wodness.CustomTextView
+                android:id="@+id/customTextView"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/searchcoach_loreml_str"
+                android:paddingLeft="10dp"
+
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/premium_subscription"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_search" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="@dimen/profile_title_margin_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/heart" />
+
+
+            <com.and.wodness.CustomTextView_med
+                android:id="@+id/customTextView"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="@string/searchbox_lvbox_str"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+
+                android:background="@drawable/back_img_button1" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/heart" />
+
+
+            <com.and.wodness.CustomTextView_med
+                android:id="@+id/customTextView"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="@string/searchbox_astera_str"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+
+                android:background="@drawable/back_img_button1" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/heart" />
+
+
+            <com.and.wodness.CustomTextView_med
+                android:id="@+id/customTextView"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="@string/searchbox_dfxfit_str"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+
+                android:background="@drawable/back_img_button1" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/heart" />
+
+
+            <com.and.wodness.CustomTextView_med
+                android:id="@+id/customTextView"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="@string/searchbox_wiifit_str"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+
+                android:background="@drawable/back_img_button1" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/heart" />
+
+
+            <com.and.wodness.CustomTextView_med
+                android:id="@+id/customTextView"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="@string/searchbox_greatyou_Str"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <com.and.wodness.CustomButton
+                android:id="@+id/recover_back_button"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+
+                android:background="@drawable/back_img_button1" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+
+        android:paddingTop="96dp"
+
+        >
+        <com.and.wodness.CustomTextView
+            android:id="@+id/customTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/searchbox_dontfind_str"
+            android:textColor="@color/tabDark"
+            android:textSize="16sp"
+
+            android:layout_marginBottom="10dp"
+            />
+    <com.and.wodness.CustomButton
+        android:id="@+id/searchbox_here_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/create_an_account"
+        android:text="@string/searchcoach_here_btn_str"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+</RelativeLayout>

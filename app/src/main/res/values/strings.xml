@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Wodness</string>
+
+    <string name="splash_app_logo_name">WODNESS</string>
+
+    <string name="scrub_empty">Tap and hold the graph to scrub.</string>
+    <string name="scrub_format">Scrubbing value: %1$s</string>
+    <string name="randomize">Randomize</string>
+
+    <string name="first_login_str1">D O N \' T &#160;  T R A I N &#160;  A L O N E</string>
+    <string name="first_login_str2">Y O U \' V E &#160; G O T &#160;  A &#160;  N E W  &#160; P A R T N E R</string>
+    <string name="first_login_joinus_str">J O I N &#160; U S</string>
+    <string name="first_login_login_str">L O G &#160; I N</string>
+    <string name="usernameoremail_hint"><font size="13">U S E R N A M E &#160;O R&#160; E M A I L</font></string>
+    <string name="password_hint"><font size="13">P A S S W O R D</font></string>
+    <string name="username_hint"><font size="13">U S E R N A M E</font></string>
+    <string name="email_hint"><font size="13">E M A I L</font></string>
+    <string name="login_progress_str">TRAIN HARDER. RECORD &amp; PROGRESS</string>
+    <string name="login_login_button">L O G I N</string>
+    <string name="login_withfb_button">L O G I N &#160;  W I T H &#160;  F A C E B O O K</string>
+    <string name="login_forgot_pwd_button">FORGOT PASSWORD?</string>
+
+    <string name="str_alert_msg_enter_email">Please Enter Email.</string>
+    <string name="str_alert_msg_invalid_email">Invalid Email.</string>
+
+    <string name="str_alert_msg_enter_emailorusername">Please Enter Email or Username.</string>
+    <string name="str_alert_msg_enter_code">Please Enter Code.</string>
+    <string name="str_alert_msg_enter_newpassword">Please Enter New Password.</string>
+
+    <string name="str_alert_msg_enter_password">Please Enter Password.</string>
+    <string name="str_alert_msg_enter_username">Please Enter Username.</string>
+    <string name="str_alert_msg_enter_firstname">Please Enter Firstname.</string>
+    <string name="str_alert_msg_enter_lastname">Please Enter Lastname.</string>
+    <string name="str_alert_msg_enter_dob">Please Select DD/MM/YY.</string>
+    <string name="str_alert_msg_enter_gender">Please Select Gender.</string>
+    <string name="str_alert_msg_enter_country">Please Select Country.</string>
+    <string name="str_alert_msg_enter_height">Please Enter Height.</string>
+    <string name="str_alert_msg_enter_weight">Please Enter Weight.</string>
+
+
+
+    <string name="str_alert_msg_invalid_username_or_password">Invalid username or password.</string>
+
+    <string name="joinus_connect_fb">CONNECTING WITH FACEBOOK</string>
+    <string name="joinus_create_account">CREATE AN ACCOUNT</string>
+    <string name="joinus_or_str">O R</string>
+    <string name="joinus_center_text">BY USING UP TO WODNESS, YOU AGREE TO OUR </string>
+
+    <string name="joinus_member_text">ALREADY MEMBER?</string>
+    <string name="joinus_login_text">LOGIN</string>
+    <string name="joinus_firstname_hint"><font size="11">F I R S T &#160; N A M E</font></string>
+    <string name="joinus_lastname_hint"><font size="11">L A S T &#160; N A M E</font></string>
+    <string name="joinus_datename_hint"><font size="11">D D / M M / Y Y Y Y</font></string>
+    <string name="joinus_gender_hint"><font size="11">G E N D E R</font></string>
+    <string name="joinus_height_hint"><font size="11">H E I G H T</font></string>
+    <string name="joinus_weight_hint"><font size="11">W E I G H T</font></string>
+    <string name="joinus_username_hint"><font size="11">U S E R N A M E</font></string>
+    <string name="joinus_email_hint"><font size="11">E M A I L</font></string>
+    <string name="joinus_country_hint"><font size="11">C O U N T R Y</font></string>
+
+
+    <string name="recover_title_str">R E C O V E R</string>
+    <string name="recover_back_btn">&lt; B A C K</string>
+    <string name="recover_reset_pwd">R E S E T &#160;  P A S S W O R D</string>
+
+    <string name="modify_password_str">&#160; M O D I F Y &#160; P A S S W O R D</string>
+    <string name="modify_back_btn">&lt;</string>
+    <string name="new_password_hint_str"><font size="13">C O D E &#160; S E N T &#160;  B Y &#160; E M A I L</font></string>
+    <string name="modify_password_confirm_hint_str"><font size="13">C O N F I R M &#160; P A S S W O R D</font></string>
+    <string name="modify_password_btn">S A V E &#160;  P A S S W O R D</string>
+
+    <string name="profile_take_photo_string">TAKE A PHOTO</string>
+
+    <string name="main_profile_photo_text_hello">Hello Dlmitri!</string>
+    <string name="main_profile_photo_text_ready">Ready to break some</string>
+    <string name="main_profile_photo_text_records">records?</string>
+
+    <string name="profile_status_title_str">P R O F I L E</string>
+    <string name="profile_status_modify_button_str">MODIFY</string>
+    <string name="profile_status_person_name">Dimitri Corbeau</string>
+    <string name="profile_status_email_name">dimicobe20@gmail.com</string>
+    <string name="profile_status_change_pwd_button_str">CHANGE PASSWORD</string>
+
+    <string name="facebook_app_id">131359137499020</string>
+    <string name="fb_login_protocol_scheme">fb131359137499020</string>
+
+    <string name="addbox_title_str">A D D &#160; A &#160; B O X</string>
+    <string name="addbox_addlogo_str">A D D &#160; L O G O</string>
+    <string name="addbox_address_str">A D D R E S S</string>
+    <string name="addbox_phone_str">P H O N E</string>
+    <string name="addbox_nameofowner_str">N A M E &#160;O F &#160;O W N E R</string>
+    <string name="addbox_submit_str">S U B M I T</string>
+    <string name="addbox_name_str">N A M E</string>
+    <string name="dont1">DON\'T&#160; FIND &#160;YOUR &#160;BOX ?</string>
+
+    <string name="addcoach_addphone_str">A D D &#160; P H O N E</string>
+    <string name="addcoach_title_str">A D D &#160; A &#160; C O A C H</string>
+
+    <string name="searchcoach_title_str">S E A R C H &#160;  C O A C H</string>
+    <string name="searchcoach_loreml_str">Loreml&#160;</string>
+    <string name="searchcoach_khan_str">Khan&#160;Porter</string>
+    <string name="searchcoach_dun_str">Dan&#160;Bailey</string>
+    <string name="searchcoach_guillaume_str">Guillaume&#160;Piffeteau</string>
+    <string name="searchcoach_julien_str">Julien&#160;Tanvet-Abadia</string>
+    <string name="searchcoach_brent_Str">Brent&#160;Fikowski</string>
+    <string name="searchcoach_dontfind_str">D O N \' T &#160; F I N D &#160; Y O U R &#160; C O A C H ?</string>
+    <string name="searchcoach_here_btn_str">H E R E</string>
+
+    <string name="searchbox_title_str">S E A R C H &#160;  B O X</string>
+    <string name="searchbox_loreml_str">Loreml&#160;</string>
+    <string name="searchbox_lvbox_str">LV&#160;Box</string>
+    <string name="searchbox_astera_str">Astera&#160;Fit</string>
+    <string name="searchbox_dfxfit_str">DFX&#160;Fit</string>
+    <string name="searchbox_wiifit_str">WiiFit</string>
+    <string name="searchbox_greatyou_Str">Great&#160;You</string>
+    <string name="searchbox_dontfind_str">D O N \' T &#160; F I N D &#160; Y O U R &#160; B O X ?</string>
+    <string name="searchbox_here_btn_str">H E R E</string>
+
+    <string name="premium_custom_strength_title_str"> C U S T O M &#160;S T R E N G H T &#160;P R O G R A M </string>
+    <string name="premium_custom_strength_text">More movements with more variet ultimately leads to more gains.\nWodness strength program intuitively scales your workout to\nyour ability -- so get your barbells and bumper plates out,\nbecause the addition of your exclusive strength component is\nsomething you can\'t afford to miss!</string>
+
+    <string name="premium_log_title_str">L O G&#160;&amp;&#160;T R A C K &#160;A L L&#160; O F &#160; Y O U R&#160; M A X E Z </string>
+    <string name="premium_log_text">In addition to savings your favourite workouts, premium users\ncan now efforlessly update and track the progression of their\none and five rep maxes.</string>
+
+    <string name="premium_coach_title_str">C O A C H&#160;   G E N E R A T E D &#160; W O D S </string>
+    <string name="premium_coach_text">Follow along and put your fitness skills to the test as new WODs\nare posted daily straight from their programming journals!\nFor those of you want options, WODNESS Premium members still\nhave access to our exclusive Benchmark, Heroes WOD and much more.</string>
+
+    <string name="premium_permonth_btn">1.99€ per MONTH\n        (0.07€ PER DAY)</string>
+    <string name="premium_peryear_btn">20.99€ per YEAR\n        (0.06€ PER DAY)</string>
+</resources>

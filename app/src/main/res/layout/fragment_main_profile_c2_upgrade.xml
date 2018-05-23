@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0c0c0"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.and.wodness.CustomTextView
+            android:id="@+id/customTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="S T A T I S T I C S"
+            android:textAlignment="center"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="#c0c0c0"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:orientation="vertical">
+                <com.and.wodness.CustomTextView_number
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text = "Premium Membership Required"
+                    android:textSize="21sp"
+                    android:textColor="#647a9e"
+                    />
+                <com.and.wodness.CustomTextView_number
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text = "If you want to track all your activities"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    />
+                <com.and.wodness.CustomTextView_number
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "and show your progress."
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/upgrade_button"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

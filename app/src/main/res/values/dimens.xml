@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spark_line_width">2dp</dimen>
+    <dimen name="spark_corner_radius">3dp</dimen>
+    <dimen name="spark_base_line_width">1dp</dimen>
+    <dimen name="spark_scrub_line_width">2dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="splash_logo_image_width_height">140dp</dimen>
+    <dimen name="splash_logo_textview_margin_bottom">15dp</dimen>
+    <dimen name="splash_logo_app_name_textsize">62sp</dimen>
+
+    <dimen name="first_login_textview_margin_bottom">12dp</dimen>
+    <dimen name="first_login_imageview_margin_bottom">33dp</dimen>
+    <dimen name="first_login_str1_textsize">16sp</dimen>
+    <dimen name="first_login_str2_textsize">18sp</dimen>
+
+    <dimen name="login_textview_margin_bottom">8dp</dimen>
+    <dimen name="login_title_margin_top">40dp</dimen>
+    <dimen name="login_progress_textsize">17sp</dimen>
+    <dimen name="login_edit_text_padding">15dp</dimen>
+    <dimen name="login_forgot_pwd_size">15sp</dimen>
+    <dimen name="login_typing_margin_top">240dp</dimen>
+    <dimen name="login_typing_padding_left">15dp</dimen>
+    <dimen name="login_button_padding_top">350dp</dimen>
+    <dimen name="login_button_lr_padding">10dp</dimen>
+    <dimen name="login_button_tb_padding">3dp</dimen>
+
+    <dimen name="joinus_logo_padding_top">10dp</dimen>
+    <dimen name="joinus_logo_textsize">36sp</dimen>
+    <dimen name="joinus_logo_height_size">80dp</dimen>
+    <dimen name="joinus_logo_width_size">70dp</dimen>
+    <dimen name="joinus_or_text_size">18sp</dimen>
+    <dimen name="joinus_line_size">100dp</dimen>
+    <dimen name="joinus_line_padding_left_right_size">10dp</dimen>
+    <dimen name="joinus_line_padding_top_size">20dp</dimen>
+    <dimen name="joinus_line_padding_bottom_size">40dp</dimen>
+    <dimen name="joinus_button_padding_bottom">80dp</dimen>
+    <dimen name="joinus_line_padding_bottom">40dp</dimen>
+    <dimen name="joinus_center_text_padding_top">2dp</dimen>
+    <dimen name="joinus_center_text_size">12dp</dimen>
+    <dimen name="joinus_button_margin_top">100dp</dimen>
+    <dimen name="joinus_member_bottom_margin">10dp</dimen>
+    <dimen name="joinus_edittext_margin_bottom">5dp</dimen>
+
+    <dimen name="recover_title_textsize">24sp</dimen>
+    <dimen name="recover_back_button_textsize">18sp</dimen>
+    <dimen name="recover_title_padding_left">45dp</dimen>
+    <dimen name="recover_line_padding_top">100dp</dimen>
+    <dimen name="recover_reset_pwd_textsize">18dp</dimen>
+
+    <dimen name="modify_password_title">24sp</dimen>
+
+    <dimen name="profile_title_margin_top">18dp</dimen>
+    <dimen name="profile_title_margin_bottom">7dp</dimen>
+    <dimen name="profile_edit_text_width">100dp</dimen>
+    <dimen name="profile_edit_text_margin_bottom">30dp</dimen>
+    <dimen name="profile_edit_text_margin_left">18dp</dimen>
+    <dimen name="profile_take_photo_button_width">90dp</dimen>
+    <dimen name="profile_take_photo_button_height">20dp</dimen>
+    <dimen name="profile_button_margin">10dp</dimen>
+    <dimen name="profile_button_text_size">10sp</dimen>
+
+
+    <dimen name="main_profile_title_logo_height_size">100dp</dimen>
+    <dimen name="main_profile_title_logo_width_size">90dp</dimen>
+    <dimen name="main_profile_title_margin_top">10dp</dimen>
+    <dimen name="main_profile_photo_layout_margin">25dp</dimen>
+    <dimen name="main_profile_photo_width">91dp</dimen>
+    <dimen name="main_profile_photo_height">88dp</dimen>
+    <dimen name="main_profile_photo_textsize">12sp</dimen>
+    <dimen name="main_profile_active_logo_margin">33dp</dimen>
+    <dimen name="main_profile_graph_layout_margintop">100dp</dimen>
+    <dimen name="main_profile_workout_marginleft">20dp</dimen>
+
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="corner_radius_zero">0dp</dimen>
+    <dimen name="tab_space_top">4dp</dimen>
+    <dimen name="tab_space">0dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+    <dimen name="tab_space_bottom_line">36sp</dimen>
+    <dimen name="tab_space_unselected_top">6sp</dimen>
+    
+    <dimen name="profile_status_photo_width">90dp</dimen>
+    <dimen name="profile_status_photo_height">90dp</dimen>
+    <dimen name="profile_status_modify_photo_button_width">70dp</dimen>
+    <dimen name="profile_status_modify_photo_button_height">15dp</dimen>
+    <dimen name="profile_status_photo_margin_left">30dp</dimen>
+    <dimen name="profile_status_line_margin_top">10dp</dimen>
+    <dimen name="profile_status_gmail_font_size">10dp</dimen>
+    <dimen name="profile_status_person_margin_left">25dp</dimen>
+
+    <dimen name="cp_dialog_width">200dp</dimen>
+    <dimen name="cp_dialog_height">300dp</dimen>
+    <dimen name="premium_subscription">16sp</dimen>
+    <dimen name="custom_strenght">13sp</dimen>
+    <dimen name="custom_strenght_text">15sp</dimen>
+</resources>

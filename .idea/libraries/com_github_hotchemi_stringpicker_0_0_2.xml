@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.hotchemi:stringpicker-0.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stringpicker-0.0.2.aar/79be4252dc87a2b660050f469588e5f0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stringpicker-0.0.2.aar/79be4252dc87a2b660050f469588e5f0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hotchemi/stringpicker/0.0.2/8659fb36e26ae04defb60ef41b3bb23fae006ac8/stringpicker-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

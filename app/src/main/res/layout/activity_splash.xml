@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+        <com.and.wodness.CustomTextView
+            android:id="@+id/txtAppLogoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_app_logo_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/splash_logo_app_name_textsize"
+            android:layout_marginBottom="@dimen/splash_logo_textview_margin_bottom"
+
+            />
+        <ImageView
+            android:id="@+id/imgAppLogo"
+            android:layout_width="@dimen/splash_logo_image_width_height"
+            android:layout_height="@dimen/splash_logo_image_width_height"
+            android:scaleType="fitCenter"
+            app:srcCompat = "@drawable/splash_logo_pic"/>
+    </LinearLayout>
+</RelativeLayout>

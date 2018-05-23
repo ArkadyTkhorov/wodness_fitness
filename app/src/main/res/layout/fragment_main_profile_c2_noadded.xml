@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.and.wodness.CustomTextView
+            android:id="@+id/customTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="S T A T I S T I C S"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="#c0c0c0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:text = "N U M B E R  O F  W O D S"/>
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+
+                    android:text = "D O N E"/>
+                <com.and.wodness.CustomTextView_number
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize = "30sp"
+                    android:text = "0"
+                    android:textColor="@android:color/black"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="30dp"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/colorProgress"/>
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "No box added"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+                <com.and.wodness.CustomTextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="If you want to add your performance from"
+                    android:textSize="11sp"
+                    android:textColor = "@android:color/black"/>
+                <com.and.wodness.CustomTextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="your box."
+                    android:textSize="11sp"
+                    android:textColor = "@android:color/black"/>
+                <com.and.wodness.CustomTextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It's time to upgrade for a better experience"
+                    android:textSize="11sp"
+                    android:textColor = "@android:color/black"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/noadd_addbox"
+                    android:background="@drawable/add_button"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/my_benchmark"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/my_weightlifting"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:background="@drawable/my_workouts"/>
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

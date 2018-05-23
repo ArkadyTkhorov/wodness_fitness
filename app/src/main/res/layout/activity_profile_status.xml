@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <com.and.wodness.CustomButton
+            android:id="@+id/recover_back_button"
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back_img_button" />
+
+        <com.and.wodness.CustomTextView
+            android:id="@+id/customTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.08"
+            android:gravity="center_vertical"
+            android:text="@string/profile_status_title_str"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/recover_title_textsize" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#c0c0c0"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/profile_status_photo_margin_left"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="@dimen/profile_button_margin"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_photo_imageview"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/profile_status_photo_width"
+            android:layout_height="@dimen/profile_status_photo_height"
+            android:src="@drawable/photo"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="#FF000000"/>
+        <com.and.wodness.CustomButton
+            android:layout_marginTop="@dimen/profile_title_margin_bottom"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/profile_status_modify_button"
+            android:layout_width="@dimen/profile_status_modify_photo_button_width"
+            android:layout_height="@dimen/profile_status_modify_photo_button_height"
+            android:background="@drawable/modify"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/profile_status_person_margin_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <com.and.wodness.CustomTextView_number
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/status_username_textview"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                />
+            <com.and.wodness.CustomTextView_number
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/status_email_textview"
+                android:textSize="@dimen/profile_status_gmail_font_size"
+                android:textColor="@color/colorLightGray"
+                />
+        <com.and.wodness.CustomButton
+            android:id="@+id/status_change_password"
+            android:layout_width="147dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/profile_title_margin_bottom"
+            android:background="@drawable/change_password"
+
+
+            android:textColor="@color/colorProgress"
+            android:textSize="@dimen/profile_button_text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="@dimen/profile_status_line_margin_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="40dp"
+                >
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H E I G H T"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+                <com.and.wodness.CustomTextView_number
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:id = "@+id/status_height_textview"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorProgress"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginRight="40dp">
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="W E I G H T"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+                <com.and.wodness.CustomTextView_number
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:id = "@+id/status_weight_textview"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorProgress"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginRight="40dp">
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S E X"
+                    android:layout_gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"/>
+                <com.and.wodness.CustomTextView_number
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:id = "@+id/status_sex_textview"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorProgress"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginRight="40dp">
+                <com.and.wodness.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A G E"
+                    android:layout_gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"/>
+                <com.and.wodness.CustomTextView_number
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:id = "@+id/status_age_textview"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorProgress"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_marginTop="@dimen/profile_status_line_margin_top"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:id="@+id/profile_status_virgin_arrow_button"
+            android:orientation="horizontal"
+            >
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="Box"
+                android:textColor="@android:color/black" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="60dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/main_profile_logo_c_active" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <com.and.wodness.CustomTextView_number
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Virgin Active"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="7dp"
+                        android:layout_height="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/mapicon" />
+
+                    <com.and.wodness.CustomTextView_number
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Drayton High Road Hellesdon"
+                        android:textColor="#647a9e"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="60dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/status_coach_arrow_button"
+            android:layout_marginTop="25dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preffered Coach"
+                android:textColor="@color/colorProgress"
+                android:textSize="15sp"/>
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adam Brown"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="40dp"/>
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="168dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="20dp"
+            android:background="#c0c0c0"/>
+        <com.and.wodness.CustomTextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C O N T A C T   &amp;   S U P P O R T"
+            android:textColor="@color/colorProgress"
+            android:textSize="13sp"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id = "@+id/status_helpsupport_arrow_button"
+            android:layout_marginTop="10dp">
+        <com.and.wodness.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Support"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp"/>
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="283dp"
+
+            android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate Wodness in the App Store"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="202dp"
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="#eeeeee"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Information"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="258dp"
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Term of Service"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="280dp"
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="#eeeeee"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="324dp"
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="308dp"
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="#eeeeee"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <com.and.wodness.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Premium Subscription"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="242dp"
+                android:background="@drawable/collasicon" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <com.and.wodness.CustomButton
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="L O G  O U T"
+            android:textSize="15sp"
+            android:id="@+id/profile_status_login"
+            android:background="@drawable/create_an_account"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

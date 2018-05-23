@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorProgress">#18c6ff</color>
+    <color name="colorloginfacebook">#3856a0</color>
+    <color name="colorLightGray">#aaaaaa</color>
+    <color name="borderStrokeColor">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorjoinuscreate">#283247</color>
+    <color name="colorprivateprofile">#91a5ae</color>
+    <color name="tab_background">#f6f6f7</color>
+    <color name="tab_border">#a7a7aa</color>
+
+    <color name="tabMedium">#2B2B2B</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+
+    <color name="theme_color_primary">#1c9359</color>
+    <color name="theme_color_primary_light">#3aaf75</color>
+    <color name="theme_color_accent">#084e43</color>
+
+    <color name="edittext_color_light_blue">#8399a4</color>
+    <color name="edittext_underline_light_blue">#bec9cf</color>
+
+    <color name="edittext_underline_gray">#aeaeaf</color>
+
+    <color name="spark_line_color">#000000</color>
+    <color name="spark_base_line_color">#757577</color>
+    <color name="spark_scrub_line_color">#757577</color>
+
+    <color name="colorPrimary">#21ce99</color>
+    <color name="colorPrimaryDark">#26a47b</color>
+    <color name="colorAccent">#21ce99</color>
+
+    <color name="colorDarkRed">#ff0000</color>
+</resources>
